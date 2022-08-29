@@ -51,6 +51,7 @@ header {
 
 .gray {
     color: #949EB2;
+    
 }
 
 .mr3 {
@@ -87,6 +88,13 @@ header {
     width: 75%;
 }
 
+.md-col-4 {
+    width: 33.33333%;
+}
+
+.md-col-8 {
+    width: 66.66667%;
+}
 .col-12 {
     width: 100%;
 }
@@ -115,6 +123,10 @@ header {
 .clearfix:after, .clearfix:before {
     content: " ";
     display: table;
+}
+
+.clearfix:after {
+    clear: both;
 }
 
 .col-12 {
@@ -240,7 +252,7 @@ h3 {
     margin: 0;
 }
 
-.semibold, .btn {
+.btn {
     font-weight: 600;
 }
 
@@ -248,16 +260,28 @@ h3 {
     border: none;
 }
 
-.bg-white {
+.bg-putih {
     background-color: #fff;
+}
+
+.bg-abu-cerah {
+    background: #F3F4F6;
 }
 
 .btn-outline, .btn-outline:hover {
     border-color: currentcolor;
 }
 
-.btn, .btn:hover {
+.btn:hover {
     text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .btn {
@@ -302,4 +326,49 @@ body, h1, h2, h3, h4, h5, h6, input {
     color: #38404F;
     font-size: 18px;
     line-height: 1.6;
+}
+
+.py4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.mxn3 {
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+
+.btn-pad {
+    height: auto !important;
+    padding: 0.875rem 1.125rem !important;
+    min-width: 11.25rem;
+}
+
+.rounded-left {
+    border-radius: 3px 0 0 3px;
+}
+
+.rounded-right {
+    border-radius: 0 3px 3px 0;
+}
+
+.background-green {
+    background: #65D777;
+}
+
+.white {
+    color: #fff;
+}
+
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.125rem;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    height: auto;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    -webkit-appearance: none;
 }
