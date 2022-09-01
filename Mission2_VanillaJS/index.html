@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Missions 2</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <img id="train" src="https://js.cx/clipart/train.gif">
+
+
+  <script>
+    train.onclick = function() {
+      let start = Date.now();
+
+      let timer = setInterval(function() {
+        let timePassed = Date.now() - start;
+
+        train.style.left = timePassed / 5 + 'px';
+
+        if (timePassed > 7000) clearInterval(timer);
+
+      }, 20);
+    }
+  </script>
+
+
+</body>
+
+</html>
