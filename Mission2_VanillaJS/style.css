@@ -94,3 +94,12 @@ main {
   width: 50%;
 } */
 
+#text {
+  position: absolute;
+  right: 300px;
+  color: #263d2d;
+  white-space: nowrap;
+  font-size: 80px;
+  z-index: 9;
+  margin-top: 250px;
+}
