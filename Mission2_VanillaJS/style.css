@@ -1,4 +1,96 @@
-#train {
-  position: relative;
-  cursor: pointer;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans';
 }
+
+
+#bird {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+#bird2 {
+  position: absolute;
+  top: 100;
+  left: 300;
+  transform: translate(800%, 80%);
+}
+
+.capung {
+  position: absolute;
+  right: 50%;
+  top: 40%;
+}
+
+.capung img{
+  width: 40%;
+}
+
+.lebah {
+  position: absolute;
+  right: 50%;
+  top: 40%;
+}
+
+.lebah img{
+  width : 40%
+}
+
+
+main {
+  /* background-image: url("./Assets/img/5386360.jpg"); */
+}
+
+.container-section{
+  position: relative;
+}
+
+#bg-forest{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.start {
+  position: absolute;
+  width: 1500px;
+  left: 300;
+}
+.bg-2 {
+  width: 100%;
+  height: 100%;
+}
+
+.title-animation {
+  width: -80px;
+  height: -40px;
+  position: relative;
+  animation-name: title;
+  animation-duration: 3.5s;
+}
+
+@keyframes title {
+  0% {top: -20px;}
+  50% {top: 0px;}
+}
+
+.layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 70%;
+  width: 70%;
+}
+
+.layer:nth-child(1) {
+  background-image: url(Assets/img/1.png) ;
+}
+
+/* .layer:nth-child(2) {
+  background-image: url(Assets/img/Capung.png) ;
+  width: 50%;
+} */
+
