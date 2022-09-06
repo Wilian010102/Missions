@@ -47,7 +47,7 @@ container.onmousemove = function(e) {
 window.addEventListener('scroll', function () {
   let value = window.pageYOffset;
   capung.style.marginRight = value * 4 + 'px';
-  lebah.style.marginLeft = value * 4 + 'px';
+  lebah.style.marginLeft = value * 5 + 'px';
   // capung.style.marginTop = value * 1.5 + 'px';
   console.log(value);
 })
